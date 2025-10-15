@@ -17,3 +17,11 @@
   * Changes Made:
     * Changed the Messages in the AI and Human interaction.
     * Changed parameters in arithmetic function.
+  ### Lesson 3: Router
+  * Summary:
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/router.ipynb
+  * Changes Made:
+    * Defined both multiply and exponent functions as tools in the notebook.
+    * Bound both tools to the language model using llm.bind_tools([multiply, exponent]).
+    * Updated the graph construction so the ToolNode includes both multiply and exponent tools, not just one.
+    * Added another message to invoke exponent function.
