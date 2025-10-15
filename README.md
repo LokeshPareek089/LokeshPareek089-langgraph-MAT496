@@ -19,6 +19,8 @@
     * Changed parameters in arithmetic function.
   ### Lesson 3: Router
   * Summary:
+    * I learnt how to use a router node in LangGraph to direct different types of user queries to the appropriate processing path. It explains how to set up conditional edges and routing logic so
+      the graph can intelligently decide, based on the input, whether to call a tool, answer directly, or take another action.
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/router.ipynb
   * Changes Made:
     * Defined both multiply and exponent functions as tools in the notebook.
