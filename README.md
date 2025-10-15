@@ -36,4 +36,11 @@
   * Changes Made:
     * Added Exponent Function in tools.
     * Modified message to raise output to the power of output so as to call exponent function.
-    <img width="3199" height="1887" alt="image" src="https://github.com/user-attachments/assets/de93d23b-1578-49a1-9d6f-38b984460a8c" />
+  ### Lesson 5: Agent with Memory
+  * Summary:
+    * The video explains how to build AI agents that can remember previous interactions using LangGraph's memory features. It demonstrates how to use memory modules (like MemorySaver and
+      checkpointers) to persist conversation history and user-specific data, enabling agents to provide context-aware, personalized responses across multiple turns or sessions
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/agent-memory.ipynb
+  * Changes Made:
+    * Added Exponent Function to the tools.
+    * Continued thread by further raising the output to the power of itself and then dividing that by 2.
