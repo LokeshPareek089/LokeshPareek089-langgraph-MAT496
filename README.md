@@ -19,7 +19,8 @@
     * Changed parameters in arithmetic function.
   ### Lesson 3: Router
   * Summary:
-    * I learnt how to use a router node in LangGraph to direct different types of user queries to the appropriate processing path. It explains how to set up conditional edges and routing logic so
+    * I learnt how to use a router node in LangGraph to direct different types of user queries to the appropriate processing path. It explains
+      how to set up conditional edges and routing logic so
       the graph can intelligently decide, based on the input, whether to call a tool, answer directly, or take another action.
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/router.ipynb
   * Changes Made:
@@ -27,3 +28,12 @@
     * Bound both tools to the language model using llm.bind_tools([multiply, exponent]).
     * Updated the graph construction so the ToolNode includes both multiply and exponent tools, not just one.
     * Added another message to invoke exponent function.
+  ## Lessom 4: Agent
+  * Summary:
+    * The lesson teaches how to build an agent in LangGraph by connecting multiple nodes and tools in a workflow. It shows how agents can solve
+      more complex, multi-step tasks in an adaptive and extensible way.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/agent.ipynb
+  * Changes Made:
+    * Added Exponent Function in tools.
+    * Modified message to raise output to the power of output so as to call exponent function.
+    <img width="3199" height="1887" alt="image" src="https://github.com/user-attachments/assets/de93d23b-1578-49a1-9d6f-38b984460a8c" />
