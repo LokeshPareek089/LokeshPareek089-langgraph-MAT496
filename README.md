@@ -69,4 +69,12 @@
     * Changes Made:
       * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics
       * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics
-      * User name changed - "Lance" updated to "Brijesh" in message examples
+      * User name changed - "Lance" updated to "Brijesh" in message examples.
+    ### Lesson 3: Multiple Schemas
+    * Summary:
+      * I Learnt how to use multiple state schemas within a single graph. It covers defining separate input, output, and internal state schemas to control what data is visible or private at
+        different stages.
+    * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/multiple-schemas.ipynb
+    * Changes Made:
+      * node_1 changed from +2 to +1, and node_2 from +3 to +1, resulting in output of 3 instead of 5
+      * Person's name changed from "Nagesh" to "Lance" throughout the greeting logic
