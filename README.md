@@ -63,6 +63,8 @@
       validate_mood to validate_job_role.
     ### Lesson 2: State Reducers
     * Summary:
+      * The video explains that state reducers in LangGraph control how node outputs update the shared state, allowing customization of whether new values overwrite or combine with existing
+        ones. This enables flexible and robust state handling, especially in parallel or aggregated workflows.
     * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/state-reducers.ipynb
     * Changes Made:
       * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics
