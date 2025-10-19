@@ -2,7 +2,8 @@
 ## Module 1
   ### Lesson 1: Simple Graph
   * Summary:
-    * I learnt concept of building a simple state graph using LangGraph. It explains how nodes represent states or tasks, and edges define the flow between these nodes, forming a directed graph
+    * I learnt concept of building a simple state graph using LangGraph. It explains how nodes represent states or tasks, and edges define the
+      flow between these nodes, forming a directed graph
       that controls the sequence and conditional branching of agent actions.
   * Source File: https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/simple-graph.ipynb
   * Changes Made:
@@ -11,7 +12,8 @@
     * Changed initial state in graph invocation.
   ### Lesson 2: Chains
   * Summary:
-    * I learnt how to use LangGraph to build and manage chains of language model calls. The video demonstrates how to structure a sequence of tasks (or "chain") where each step can process
+    * I learnt how to use LangGraph to build and manage chains of language model calls. The video demonstrates how to structure a sequence of
+      tasks (or "chain") where each step can process
       messages, call tools, and pass state to the next step 
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/chain.ipynb
   * Changes Made:
@@ -38,9 +40,28 @@
     * Modified message to raise output to the power of output so as to call exponent function.
   ### Lesson 5: Agent with Memory
   * Summary:
-    * The video explains how to build AI agents that can remember previous interactions using LangGraph's memory features. It demonstrates how to use memory modules (like MemorySaver and
-      checkpointers) to persist conversation history and user-specific data, enabling agents to provide context-aware, personalized responses across multiple turns or sessions
+    * The video explains how to build AI agents that can remember previous interactions using LangGraph's memory features. It demonstrates how to
+      use memory modules (like MemorySaver and
+      checkpointers) to persist conversation history and user-specific data, enabling agents to provide context-aware, personalized responses
+      across multiple turns or sessions
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-1/agent-memory.ipynb
   * Changes Made:
-    * Added Exponent Function to the tools.
-    * Continued thread by further raising the output to the power of itself and then dividing that by 2.
+
+## Module 2
+  ### Lesson 1: State Schema
+  * Summary:
+    * I learnt ow to define a structured state schema in LangGraph using Python's TypedDict, which serves as the central data that
+      flows through nodes in a graph workflow. It shows how nodes update and use this state, demonstrating the importance of a clear state
+      structure for better code clarity and type safety.
+  * Source File: https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/state-schema.ipynb
+  * Changes Made:
+    * The field name was changed from mood with values "happy" and "sad" to job_role with values "cowboy," "merchant," and "soldier."
+    * The number of conditional paths expanded from two options to three options, requiring an additional node (node_4) to handle the third path.
+    * The decision function logic was modified from a simple 50/50 split between two options to a more complex 40/40/20 split distributing
+      probability across three options.
+    * The validator implementation was updated to check the job_role field instead of the mood field, with the validator method renamed from
+      validate_mood to validate_job_role.
+    * The error message was adjusted from "Each mood must be either 'happy' or 'sad'" to "Everyone is either 'merchant', 'soldier' or 'cowboy'"
+      to reflect the new domain constraints.
+    * The test data used in the examples was updated to use "Nagesh" as the test name instead of "Lance" and to test with different job role
+      values across all three state definition approaches.
