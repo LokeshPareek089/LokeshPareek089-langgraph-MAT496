@@ -30,7 +30,7 @@
     * Bound both tools to the language model using llm.bind_tools([multiply, exponent]).
     * Updated the graph construction so the ToolNode includes both multiply and exponent tools, not just one.
     * Added another message to invoke exponent function.
-  ## Lessom 4: Agent
+  ### Lessom 4: Agent
   * Summary:
     * The lesson teaches how to build an agent in LangGraph by connecting multiple nodes and tools in a workflow. It shows how agents can solve
       more complex, multi-step tasks in an adaptive and extensible way.
@@ -61,7 +61,10 @@
       probability across three options.
     * The validator implementation was updated to check the job_role field instead of the mood field, with the validator method renamed from
       validate_mood to validate_job_role.
-    * The error message was adjusted from "Each mood must be either 'happy' or 'sad'" to "Everyone is either 'merchant', 'soldier' or 'cowboy'"
-      to reflect the new domain constraints.
-    * The test data used in the examples was updated to use "Nagesh" as the test name instead of "Lance" and to test with different job role
-      values across all three state definition approaches.
+    ### Lesson 2: State Reducers
+    * Summary:
+    * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/state-reducers.ipynb
+    * Changes Made:
+      * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics
+      * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics
+      * User name changed - "Lance" updated to "Brijesh" in message examples
