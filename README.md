@@ -87,10 +87,18 @@
     * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics.
     * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics.
     * User name changed - "Lance" updated to "Nagesh" in message examples.
-  ### Lesson 5: Chatbot-Summarization
+  ### Lesson 5: Chatbot with Summarizing Messages and Memory
   * Summary:
     * The video eplains how to make chatbots smarter and more memory-efficient by summarizing past conversations instead of keeping full histories. It introduces a summarization node that
       condenses older messages into a brief summary, preserving context while optimizing memory with tools like MemorySaver and conditional graph edges.
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/9dc3654883260f1fa217accbfc0a891c9e42e6c3/module-2/trim-filter-messages.ipynb
   * Changes Made:
     * Message content updated - Introductory messages replaced weather related messages.
+  ### Lesson 6: Chatbot with Summarizing Messages and External Memory
+  * Summary:
+    * I learnt how to enhance chatbot memory by summarizing past messages and saving these summaries to external memory stores. This approach enables efficient long-term context retention
+      across sessions without overloading the model with full chat histories
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/9dc3654883260f1fa217accbfc0a891c9e42e6c3/module-2/chatbot-external-memory.ipynb
+  * Changes Made:
+    * Message content updated - Introductory messages replaced weather related messages.
+    * Conversation context modified.
