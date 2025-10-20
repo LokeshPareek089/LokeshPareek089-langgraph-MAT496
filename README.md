@@ -61,20 +61,29 @@
       probability across three options.
     * The validator implementation was updated to check the job_role field instead of the mood field, with the validator method renamed from
       validate_mood to validate_job_role.
-    ### Lesson 2: State Reducers
-    * Summary:
-      * The video explains that state reducers in LangGraph control how node outputs update the shared state, allowing customization of whether new values overwrite or combine with existing
-        ones. This enables flexible and robust state handling, especially in parallel or aggregated workflows.
-    * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/state-reducers.ipynb
-    * Changes Made:
-      * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics
-      * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics
-      * User name changed - "Lance" updated to "Brijesh" in message examples.
-    ### Lesson 3: Multiple Schemas
-    * Summary:
-      * I Learnt how to use multiple state schemas within a single graph. It covers defining separate input, output, and internal state schemas to control what data is visible or private at
-        different stages.
-    * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/multiple-schemas.ipynb
-    * Changes Made:
-      * node_1 changed from +2 to +1, and node_2 from +3 to +1, resulting in output of 3 instead of 5
-      * Person's name changed from "Nagesh" to "Lance" throughout the greeting logic
+  ### Lesson 2: State Reducers
+  * Summary:
+    * The video explains that state reducers in LangGraph control how node outputs update the shared state, allowing customization of whether new values overwrite or combine with existing
+      ones. This enables flexible and robust state handling, especially in parallel or aggregated workflows.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/state-reducers.ipynb
+  * Changes Made:
+    * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics.
+    * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics.
+    * User name changed - "Lance" updated to "Brijesh" in message examples.
+  ### Lesson 3: Multiple Schemas
+  * Summary:
+    * I Learnt how to use multiple state schemas within a single graph. It covers defining separate input, output, and internal state schemas to control what data is visible or private at
+      different stages.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/c71b9b999932dcf5bb70abdbca2e1f9ac6c01da8/module-2/multiple-schemas.ipynb
+  * Changes Made:
+    * node_1 changed from +2 to +1, and node_2 from +3 to +1, resulting in output of 3 instead of 5.
+    * Person's name changed from "Nagesh" to "Lance" throughout the greeting logic.
+  ### Lesson 4: Trim-Filter-Messages
+  * Summary:
+    * The video covers how to manage message histories efficiently using trim_messages and filter_messages. Trimming shortens message content to stay within token or message limits, while
+      filtering removes irrelevant messages (like system or tool outputs) before sending data to the model. Together, they keep conversations concise, relevant, and optimized for performance.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/9dc3654883260f1fa217accbfc0a891c9e42e6c3/module-2/trim-filter-messages.ipynb
+  * Changes Made:
+    * Message content updated - Marine biology examples replaced with Machine Learning and LangGraph topics.
+    * Conversation context modified - Ocean mammals discussion changed to Machine Learning and LangChain learning topics.
+    * User name changed - "Lance" updated to "Nagesh" in message examples.
