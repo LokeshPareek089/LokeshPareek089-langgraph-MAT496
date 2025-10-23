@@ -102,3 +102,14 @@
   * Changes Made:
     * Message content updated - Introductory messages replaced weather related messages.
     * Conversation context modified.
+
+## Module 3
+  ### Lesson 1: Streaming-Interruption
+  * Summary:
+    * The video explains how to enable real-time streaming of outputs within LangGraph workflows, allowing developers to observe model responses as they are generated rather than after full
+      completion. Streaming enhances user experience by providing incremental updates from LLMs, improving responsiveness and interactivity in AI agents.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/26377bf69b01132c91617878afb51d3eb340f3e1/module-3/streaming-interruption.ipynb
+  * Changes Made:
+    * Conversational Content changed.
+    * Message content changed from command to a question on Vatican City.
+  * <img width="3197" height="1810" alt="image" src="https://github.com/user-attachments/assets/52c59ed4-ea91-4eb0-abdb-3ad5f032c410" />
