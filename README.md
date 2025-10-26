@@ -128,3 +128,10 @@
   * Changes Made:
     * Added Exponent Method in Tools.
     * Changed Arguments in Input Question.
+  ### Lesson 4: Dynamic Breakpoints
+  * Summary:
+    The video teaches how to pause execution conditionally at runtime based on a node’s state or logic, using NodeInterrupt, allowing adaptive human-in-the-loop intervention only when certain
+    conditions are met — making agent workflows smarter and more efficient.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-3/dynamic-breakpoints.ipynb
+  * Changes Made:
+    * Made Changes in Message Content.
