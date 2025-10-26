@@ -113,3 +113,11 @@
     * Conversational Content changed.
     * Message content changed from command to a question on Vatican City.
   * <img width="3197" height="1810" alt="image" src="https://github.com/user-attachments/assets/52c59ed4-ea91-4eb0-abdb-3ad5f032c410" />
+  ### Lesson 2: Breakpoints
+  * Summary:
+    Breakpoints in LangGraph allow pausing AI agent workflows for human review and approval before continuing, enabling controlled and safe human-in-the-loop interactions. They help ensure
+    oversight on sensitive steps like tool calls or data writes.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-3/breakpoints.ipynb
+  * Changes Made:
+    * Added Exponent Method in Tools.
+    * Changes Input message from a Multiplication to Exponentation.
