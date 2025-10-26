@@ -121,3 +121,10 @@
   * Changes Made:
     * Added Exponent Method in Tools.
     * Changes Input message from a Multiplication to Exponentation.
+  ### Lesson 3: Editing State and Human Feedback
+  * Summary:
+    I learnt how we can pause a graph, manually edit its state, and then resume execution to correct or guide the AI’s behavior.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-3/edit-state-human-feedback.ipynb
+  * Changes Made:
+    * Added Exponent Method in Tools.
+    * Changed Arguments in Input Question.
