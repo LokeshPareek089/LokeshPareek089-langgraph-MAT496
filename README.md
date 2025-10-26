@@ -135,3 +135,11 @@
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-3/dynamic-breakpoints.ipynb
   * Changes Made:
     * Made Changes in Message Content.
+  ### Lesson 5: Time Travel
+  * Summary:
+    The video explains how to rewind an agent’s workflow to a previous checkpoint to replay, debug, or branch into a new path — enabling developers to analyze reasoning, fix mistakes, or
+    explore alternative outcomes efficiently.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-3/time-travel.ipynb
+  * Changes Made:
+    * Added Exponent Mehtod in Tools.
+    * Changed Message Content.
