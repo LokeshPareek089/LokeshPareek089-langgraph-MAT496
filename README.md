@@ -163,3 +163,10 @@
     * Changed questions from those about ChatOllama to ones about Astrophysics - specifically, Black Holes and Dark Matter.
     * Changed failure analysis summary.
     * Changed question summary.
+  ### Lesson 3: Map-Reduce
+  * Summary:
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-4/map-reduce.ipynb
+  * Changes Made:
+    * Theme changed from jokes about animals to Scientific facts about planets.
+    * Prompt changed from Generate Jokes to Generate Scientific Facts.
+    * Selection criteria changed from best joke to most interesting fact.
