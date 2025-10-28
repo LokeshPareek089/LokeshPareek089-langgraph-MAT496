@@ -165,8 +165,19 @@
     * Changed question summary.
   ### Lesson 3: Map-Reduce
   * Summary:
+    The Map-Reduce pattern in LangGraph uses the Map step to parallelize a task by sending a list of items to be processed concurrently by a node or subgraph, and a Reduce step (using a reducer
+    function) to aggregate all the parallel results back into a single, unified output.
   * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-4/map-reduce.ipynb
   * Changes Made:
     * Theme changed from jokes about animals to Scientific facts about planets.
     * Prompt changed from Generate Jokes to Generate Scientific Facts.
     * Selection criteria changed from best joke to most interesting fact.
+  ### Lesson 4: Research-Assistant
+  * Summary:
+    The Research Assistant uses LangGraph's architecture to build a search-and-reflect loop: it searches for information using tools, and then a routing node uses a conditional edge to decide
+    whether to loop back for more research or proceed to generate a final, synthesized answer.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-4/research-assistant.ipynb
+  * Changes Made:
+    * Changed theme from Langgraph Framework to Balck Holes and Dark Matter.
+    * Changed topic to The mysteries of black holes and dark matter in modern astrophysics.
+    * Changed Human Feedback to Add in an astrophysicist from an observatory.
