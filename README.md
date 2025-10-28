@@ -145,7 +145,7 @@
     * Changed Message Content.
 
 ## Module 4
-### Lesson 1: Parallelization
+  ### Lesson 1: Parallelization
   * Summary:
     Parallelization workflow enables AI agents to run multiple nodes simultaneously (in a super-step) to improve speed and confidence. The two main variations are Sectioning-breaking a task
     into independent subtasks, and Voting-running the same task multiple times to aggregate diverse outputs for higher accuracy.
@@ -154,3 +154,12 @@
     * Changed input message question from a Financial Report to a Socio-Political question.
     * Changed Temperature from 0 to 0.5.
     * Changed Node Labels.
+  ### Lesson 2: Sub-Graphs
+  * Summary:
+    Sub-graphs allow you to use an entire graph as a single node within a larger graph, which is essential for creating modular, manageable, and reusable complex systems like multi-agent
+    workflows.
+  * Source File:https://github.com/langchain-ai/langchain-academy/blob/f3c8894426b9687de78dc8b2c91885515d171223/module-4/sub-graph.ipynb
+  * Changes Made:
+    * Changed questions from those about ChatOllama to ones about Astrophysics - specifically, Black Holes and Dark Matter.
+    * Changed failure analysis summary.
+    * Changed question summary.
